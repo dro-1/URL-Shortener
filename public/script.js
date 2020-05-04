@@ -38,7 +38,6 @@ if (originalURL.trim() && uniqueName.trim()){
         }
       })
       .then(data =>{
-        console.log(data);
         newLink.innerHTML = data.shortURL;
         newLink.href = uniqueName;
         failureDiv.style.display = 'none';
